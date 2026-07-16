@@ -28,7 +28,7 @@ Full-stack e-commerce API with ASP.NET Core, PostgreSQL, JWT authentication, Doc
 - Dockerized environment
 - Basic frontend integration
 
-[Repository](https://github.com/batuhansaofficial/EcommerceApi)
+[Repository](https://github.com/batuhansacofficial/EcommerceApi)
 
 ---
 
@@ -42,7 +42,7 @@ Production-style multi-tenant SaaS backend for freelancers and small agencies.
 - Notifications
 - Integration tests
 
-[Repository](https://github.com/batuhansaofficial/FreelanceOps)
+[Repository](https://github.com/batuhansacofficial/FreelanceOps)
 
 ---
 
@@ -55,7 +55,7 @@ ASP.NET Core Web API with Redis caching, HTTP resilience, and external weather A
 - Retry and circuit-breaker resilience
 - Unit and integration test coverage
 
-[Repository](https://github.com/batuhansaofficial/WeatherApiWrapper)
+[Repository](https://github.com/batuhansacofficial/WeatherApiWrapper)
 
 ---
 
