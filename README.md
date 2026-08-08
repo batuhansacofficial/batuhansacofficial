@@ -1,64 +1,60 @@
-# About Me
+<h1 align="center">Batuhan Saç</h1>
 
-Junior .NET Developer focused on backend development, REST APIs, SQL databases, and clean server-side architecture.
+<p align="center"><strong>Junior .NET Backend Developer</strong></p>
 
-I build practical backend projects with ASP.NET Core, PostgreSQL, SQL Server, Docker, Redis, authentication, testing, and API integrations.
+<p align="center">
+  I build API-first applications with ASP.NET Core, relational databases, caching,
+  containerized environments, and automated tests.
+</p>
 
----
+<p align="center">
+  <a href="https://www.linkedin.com/in/batuhansacofficial">LinkedIn</a>
+  ·
+  <a href="https://www.kickresume.com/cv/batuhan-sac/">CV</a>
+</p>
 
-## Tech Stack
+## About
 
-**Backend:** C#, ASP.NET Core, Entity Framework Core, REST APIs  
-**Databases:** PostgreSQL, SQL Server, Redis  
-**DevOps / Tools:** Docker, Git, GitHub Actions  
-**Testing:** xUnit, integration testing  
-**Frontend basics:** React, HTML, CSS, JavaScript  
+My work focuses on backend architecture, API design, data access, authorization, external integrations, and reliability. The projects below are portfolio systems built to demonstrate how I structure and verify end-to-end application workflows.
 
----
+## Selected Work
 
-## Featured Projects
+### [FreelanceOps](https://github.com/batuhansacofficial/FreelanceOps)
 
-### EcommerceApi
-Full-stack e-commerce API with ASP.NET Core, PostgreSQL, JWT authentication, Docker, and a basic React frontend.
+`ASP.NET Core` · `PostgreSQL` · `Redis` · `Docker` · `xUnit`
 
-**Key features:**
-- User authentication and authorization
-- Product and order management
-- PostgreSQL database
-- Dockerized environment
-- Basic frontend integration
+A backend-focused, multi-tenant SaaS portfolio project for freelancers and small agencies.
 
-[Repository](https://github.com/batuhansacofficial/EcommerceApi)
+- Workspace-scoped roles and access control across clients, projects, tasks, and time entries
+- Proposals, invoicing, payments, reports, notifications, and background jobs
+- Integration tests with PostgreSQL Testcontainers and Docker packaging for the API and worker
 
----
+### [WeatherApiWrapper](https://github.com/batuhansacofficial/WeatherApiWrapper)
 
-### FreelanceOps
-Production-style multi-tenant SaaS backend for freelancers and small agencies.
+`.NET 10` · `Redis` · `Docker` · `xUnit` · `GitHub Actions`
 
-**Key features:**
-- Multi-tenant architecture
-- Client and project management
-- Billing and reports
-- Notifications
-- Integration tests
+A resilient ASP.NET Core API that normalizes data from an external weather provider.
 
-[Repository](https://github.com/batuhansacofficial/FreelanceOps)
+- Current, forecast, and historical weather endpoints with Redis cache-aside behavior
+- Retry, timeout, and circuit-breaker policies for outbound HTTP requests
+- Standardized error responses, cancellation handling, and automated unit and integration tests
 
----
+### [EcommerceApi](https://github.com/batuhansacofficial/EcommerceApi)
 
-### WeatherApiWrapper
-ASP.NET Core Web API with Redis caching, HTTP resilience, and external weather API integration.
+`ASP.NET Core` · `PostgreSQL` · `React` · `TypeScript` · `Docker`
 
-**Key features:**
-- External API integration
-- Redis caching
-- Retry and circuit-breaker resilience
-- Unit and integration test coverage
+A full-stack e-commerce sample centered on an ASP.NET Core API and a React client.
 
-[Repository](https://github.com/batuhansacofficial/WeatherApiWrapper)
+- JWT authentication with role-based authorization for protected operations
+- Product, cart, checkout, and order workflows
+- Docker Compose environment for the API, PostgreSQL database, and frontend
 
----
+## Working Stack
 
-## Roadmap Progress
-
-[![roadmap.sh](https://roadmap.sh/card/tall/6702fe24fb4be684db195c06?variant=dark&roadmaps=aspnet-core%2Cpython)](https://roadmap.sh)
+| Area | Technologies |
+| --- | --- |
+| Backend | C#, ASP.NET Core, Entity Framework Core, REST APIs |
+| Data | PostgreSQL, SQL Server, Redis |
+| Testing | xUnit, integration testing, Testcontainers |
+| Delivery | Docker, Docker Compose, Git, GitHub Actions |
+| Frontend | React, TypeScript, JavaScript, HTML, CSS |
