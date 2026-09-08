@@ -19,16 +19,6 @@ My work focuses on backend architecture, API design, data access, authorization,
 
 ## Selected Work
 
-### [FreelanceOps](https://github.com/batuhansacofficial/FreelanceOps)
-
-`ASP.NET Core` · `PostgreSQL` · `Redis` · `Docker` · `xUnit`
-
-A backend-focused, multi-tenant SaaS portfolio project for freelancers and small agencies.
-
-- Workspace-scoped roles and access control across clients, projects, tasks, and time entries
-- Proposals, invoicing, payments, reports, notifications, and background jobs
-- Integration tests with PostgreSQL Testcontainers and Docker packaging for the API and worker
-
 ### [WeatherApiWrapper](https://github.com/batuhansacofficial/WeatherApiWrapper)
 
 `.NET 10` · `Redis` · `Docker` · `xUnit` · `GitHub Actions`
