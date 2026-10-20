@@ -14,7 +14,9 @@
 
 I am a Computer Engineering graduate focused on junior .NET backend development. I build portfolio applications with C# and ASP.NET Core, with attention to clear API contracts, input validation, error handling and automated tests.
 
-My previous full-time IT Specialist experience includes Windows Server, Active Directory, troubleshooting and Excel/VBA automation. I am seeking Junior .NET Backend Developer opportunities where I can contribute to API development, automated testing and maintainable application code.
+My previous full-time IT Specialist experience includes Windows Server, Active Directory, troubleshooting and Excel/VBA automation. An earlier software development internship included a Raspberry Pi interface design assignment with Qt/QML and C++.
+
+I am seeking Junior .NET Backend Developer opportunities where I can contribute to API development, automated testing and maintainable application code.
 
 ## Selected Work
 
