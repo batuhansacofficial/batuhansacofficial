@@ -23,21 +23,23 @@ My work focuses on backend architecture, API design, data access, authorization,
 
 `.NET 10` · `Redis` · `Docker` · `xUnit` · `GitHub Actions`
 
-A resilient ASP.NET Core API that normalizes data from an external weather provider.
+An ASP.NET Core API for current, forecast and historical weather data, with Redis cache-aside and HTTP retry, timeout and circuit-breaker policies.
 
-- Current, forecast, and historical weather endpoints with Redis cache-aside behavior
-- Retry, timeout, and circuit-breaker policies for outbound HTTP requests
-- Standardized error responses, cancellation handling, and automated unit and integration tests
+- Standardized errors, startup configuration validation and cancellation handling
+- Unit and application integration tests with controlled dependencies; [57 tests passed in CI at commit d01b4d8](https://github.com/batuhansacofficial/WeatherApiWrapper/actions/runs/31283932993)
+- CI checks dependency vulnerabilities, formatting, warnings-as-errors builds, coverage collection and Docker Compose image builds
 
-### [EcommerceApi](https://github.com/batuhansacofficial/EcommerceApi)
+### [Unitwise](https://github.com/batuhansacofficial/UnitConverter)
 
-`ASP.NET Core` · `PostgreSQL` · `React` · `TypeScript` · `Docker`
+`.NET 10` · `Razor Pages` · `JSON API` · `Docker` · `xUnit` · `GitHub Actions`
 
-A full-stack e-commerce sample centered on an ASP.NET Core API and a React client.
+An ASP.NET Core unit converter with a responsive Razor Pages interface and Minimal JSON API sharing one stateless C# service. The application is named Unitwise; its repository is UnitConverter.
 
-- JWT authentication with role-based authorization for protected operations
-- Product, cart, checkout, and order workflows
-- Docker Compose environment for the API, PostgreSQL database, and frontend
+- Five conversion categories, rational intermediate arithmetic, decimal results and absolute-zero validation
+- Field-specific errors, Swagger documentation, browser-local history and forms that also work without JavaScript
+- [85 tests passed in CI at commit 41e56296](https://github.com/batuhansacofficial/UnitConverter/actions/runs/39178205386), including domain and HTTP integration tests, with a non-root Docker image smoke check
+
+[Live demo](https://unitwise.onrender.com/) · [Architecture](https://github.com/batuhansacofficial/UnitConverter/blob/main/docs/architecture.md)
 
 ## Working Stack
 
