@@ -8,8 +8,6 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/batuhansacofficial">LinkedIn</a>
-  ·
-  <a href="https://www.kickresume.com/cv/batuhan-sac/">CV</a>
 </p>
 
 ## About
@@ -41,7 +39,9 @@ An ASP.NET Core unit converter with a responsive Razor Pages interface and Minim
 - Field-specific errors, Swagger documentation, browser-local history and forms that also work without JavaScript
 - [85 tests passed in CI at commit 41e56296](https://github.com/batuhansacofficial/UnitConverter/actions/runs/39178205386), including domain and HTTP integration tests, with a non-root Docker image smoke check
 
-[Live demo](https://unitwise.onrender.com/) · [Architecture](https://github.com/batuhansacofficial/UnitConverter/blob/main/docs/architecture.md)
+[Live demo](https://unitwise.onrender.com/) · [Swagger UI](https://unitwise.onrender.com/swagger) · [Architecture](https://github.com/batuhansacofficial/UnitConverter/blob/main/docs/architecture.md)
+
+The hosted demo may take a moment to wake up after inactivity.
 
 ## Technologies Used in These Projects
 
